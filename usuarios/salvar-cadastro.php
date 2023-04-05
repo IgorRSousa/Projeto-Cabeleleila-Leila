@@ -6,10 +6,9 @@
             $usuario = $_POST["usuario"];
             $senha = md5($_POST["senha"]);
             $tipo = $_POST["tipo"];
-            $data = date('d/m/Y');
+            $data = date('Y-m-d H:i');
 
-
-            $sql = "INSERT INTO usuarios (nome, email, usuario, senha, tipo, data) VALUES('{$nome}', '{$email}', '{$usuario}', '{$senha}', ' {$tipo}', '{$data}')";
+            $sql = "INSERT INTO usuarios (nome, email, usuario, senha, tipo, datacadastro) VALUES ('{$nome }', '{$email}', '{$usuario}', '{$senha}', '{$tipo}','{$data}');";
 
             $res = $conn->query($sql);
             
@@ -20,7 +19,6 @@
                 print("<script>alert('Falha no Cadastro!');</script>");
                 print("<script>location.href='?page=novo';</script>");
             }
-            
             break;
 
         case "editar":
@@ -55,7 +53,7 @@
                 print("<script>location.href='?page=listar';</script>");
             }else{
                 print("<script>alert('Falha ao Excluido!');</script>");
-                print("<script>location.href='?page=novo';</script>");
+                print("<script>location.href='?page=listar';</script>");
             }
             break;
 

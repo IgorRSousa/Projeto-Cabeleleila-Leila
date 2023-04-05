@@ -19,7 +19,7 @@
     <title>Cabeleleila Leila</title>
   </head>
   <body>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
     <div class="container-fluid">
         <a class="navbar-brand" href="dashboard.php"><?php print 'Ola, '.$_SESSION['nome'];?></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,18 +27,22 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            
             <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="dashboard.php">Home</a>
+                <a class="<?php echo (@$_REQUEST['page'] == "") ? "nav-link active" : "nav-link"; ?>" aria-current="page" href="dashboard.php">Home</a>
             </li>
             
             <li class="nav-item">
-                <a class="nav-link" href="?page=agendar">Agendar Serviço</a>
+                <a class='<?php echo (@$_REQUEST['page'] == 'agendar') ? 'nav-link active' : 'nav-link'; ?>' href="?page=agendar">Agendar Serviço</a>
+            </li>
+            
+            <li class="nav-item">
+                <a class='<?php echo (@$_REQUEST['page'] == 'listarAgenda') ? 'nav-link active' : 'nav-link'; ?>' href="?page=listarAgenda">Listar Agenda</a>
             </li>
 
             <?php 
                 if($_SESSION["tipo"] == 1){
-                    echo "<li class='nav-item'><a class='nav-link' href='?page=novo'>Cadastro</a></li>";
-                    echo "<li class='nav-item'><a class='nav-link' href='?page=listar'>Listar Usuarios</a></li>";
+                    include("includes/nivelUmDeAcesso.php");
                 }
             ?>
         </ul>
@@ -68,8 +72,18 @@
                         case "editar":
                             include("usuarios/editar-cadastro.php");
                             break;
+                        
+                        case "salvaragendamento":
+                            include("agendamento/salvar-agendamento.php");
+                            break;
                         case "agendar":
-                            include("agendamento/agendar-servoco.php");
+                            include("agendamento/agendar-servico.php");
+                            break;
+                        case "listarAgenda":
+                            include("agendamento/listar-agendamentos.php");
+                            break;
+                        case "editarAgenda":
+                            include("agendamento/editar-agenda.php");
                             break;
                         case "sair":
                             include("login/logout.php");

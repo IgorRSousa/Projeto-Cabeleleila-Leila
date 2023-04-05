@@ -13,6 +13,7 @@
             print "<th>Usuario</th>";
             print "<th>E-mail</th>";
             print "<th>Nivel de Acesso</th>";
+            print "<th>Data do Cadastro</th>";
             print "<th>Ações</th>";
         print "</tr>";
         while($row = $res->fetch_object()){
@@ -22,6 +23,7 @@
                 print "<td>".$row->usuario."</td>";
                 print "<td>".$row->email."</td>";
                 print "<td>".$row->tipo."</td>";
+                print "<td>".$row->datacadastro."</td>";
                 print "<td>
                         <button onclick=\"location.href='?page=editar&id=".$row->id."'\" class='btn btn-warning'>Editar</button>
                         <button onclick=\"if(confirm('Tem certeza que deseja Excluir o Usuario')){
