@@ -30,64 +30,93 @@ O programa que foi utilizado foi o Xampp, pois ele em uma única instalação j�
 Com o arquivo de instalação na sua máquina execute ele siga as instruções:
 - Passo 1: Clique em Next
 
-![image](https://user-images.githubusercontent.com/106490786/230416167-af45bb06-f987-4b5f-9fd2-ebf14001c8e0.png)
+![Captura de tela 2023-04-06 114856](https://user-images.githubusercontent.com/106490786/230436913-38d3cc67-a4f0-48b3-876b-2b00f1b631fd.png)
 
 - Passo 2: Clique em Next
 
-![image](https://user-images.githubusercontent.com/106490786/230416815-d2908f8b-99f2-4524-92a9-7d84a8192c5c.png)
+![Captura de tela 2023-04-06 115113](https://user-images.githubusercontent.com/106490786/230436988-894f0c61-c10a-4067-bceb-34894a93c6ae.png)
 
 - Passo 3: Clique em Next. obs: mantenha o local de instalação, se for alterar saiba onde foi instalado essa informação será necessária, programa não pode ser instalado no Arquivos de Programa.
 
-![image](https://user-images.githubusercontent.com/106490786/230417234-80033de3-47ac-492c-836e-ef2b1448cf48.png)
+![Captura de tela 2023-04-06 115250](https://user-images.githubusercontent.com/106490786/230437038-81f995c1-3be8-4a1b-8f50-0729ac4ace1d.png)
 
 - Passo 4: Clique em Next
 
-![image](https://user-images.githubusercontent.com/106490786/230417515-42326a18-be18-4251-bde3-e34e07d01f81.png)
+![Captura de tela 2023-04-06 115346](https://user-images.githubusercontent.com/106490786/230437089-936870e2-7736-402b-a34e-322fd01acf5b.png)
 
 - Passo 5: Clique em Next
 
-![WhatsApp Image 2023-04-06 at 12 02 46](https://user-images.githubusercontent.com/106490786/230420108-355ed0ef-5d7a-447c-b839-84df2c372e39.jpeg)
+![Captura de tela 2023-04-06 115347](https://user-images.githubusercontent.com/106490786/230437174-fa792fce-dc36-41d8-a6c0-6b1cb4756970.jpeg)
 
 
 - Passo 6: Após isso a instalação será iniciada.
 
-![WhatsApp Image 2023-04-06 at 12 07 57](https://user-images.githubusercontent.com/106490786/230422856-2a06b410-5fc9-4822-921f-9c00820193d0.jpeg)
+![Captura de tela 2023-04-06 115348](https://user-images.githubusercontent.com/106490786/230437206-2f7703ff-3ad2-4a40-8b6d-c136748c3887.jpeg)
 
 - Passo 7: Depois que a instalação estiver completa clique em finish para completa.
 
-![WhatsApp Image 2023-04-06 at 12 13 18](https://user-images.githubusercontent.com/106490786/230423055-b361fc37-548e-4206-ba34-b89111e29dae.jpeg)
+![Captura de tela 2023-04-06 115351](https://user-images.githubusercontent.com/106490786/230437247-7c312104-e752-48ea-a580-6d5630ad6111.jpeg)
 
 
 ### Preparando sistema para fazer os testes: 
-Com o Xampp instalado, basta colocar os arquivos da pasta sistema deste repositório na pasta de projetos do Xampp. 
-- Vá até a pasta onde o Xampp foi instalado: 
+Com o Xampp instalado, basta colocar a pasta sistema deste repositório na pasta de projetos do Xampp. 
+- Vá até a pasta onde o Xampp foi instalado e entre na pasta htdocs: 
 
-![image](https://user-images.githubusercontent.com/106490786/230422241-60c82a8e-29b6-4c38-a912-89d8146ee628.png)
+![Captura de tela 2023-04-06 121156](https://user-images.githubusercontent.com/106490786/230437380-bbba6f9a-3af3-41c0-afa4-0c50f94911bb.png)
 
-- Entre na pasta htdocs, e coloque a pasta sistema:
+- Coloque a pasta sistema encontrada neste repositorio lá:
 
-![image](https://user-images.githubusercontent.com/106490786/230423935-73fdda82-6d61-40fe-9ae5-7d511c6516c8.png)
+![Captura de tela 2023-04-06 121804](https://user-images.githubusercontent.com/106490786/230437457-2a4f09fd-2cf2-4d81-b994-c2aa32b345f2.png)
 
 - Agora abra o Xampp Control Panel, e de Start no Apache e no MySQL:
 
-![image](https://user-images.githubusercontent.com/106490786/230424819-ffa73d9c-ffa1-4bcc-bbf2-6330bbffdf62.png)
+![Captura de tela 2023-04-06 122206](https://user-images.githubusercontent.com/106490786/230437482-99b3c54c-970f-4db8-bb01-a691146699d9.png)
 
 - Com o servidor e o banco startado abra um navegador e digite http://localhost/phpmyadmin/ na url.
 
-![image](https://user-images.githubusercontent.com/106490786/230426467-9f91c78b-0331-42d3-b95b-3b67d27ff379.png)
+![Captura de tela 2023-04-06 122835](https://user-images.githubusercontent.com/106490786/230437567-03b3fa21-734d-4d3e-8c4f-afa41e84c906.png)
 
 - Agora clique em Importar: 
 
-![image](https://user-images.githubusercontent.com/106490786/230426064-9b8f644f-50ad-41d5-8ad9-9c56484d92e2.png)
+![Captura de tela 2023-04-06 122623](https://user-images.githubusercontent.com/106490786/230437587-2d2eeb5b-91d7-4ef1-b8d9-3d6e1ee3034d.png)
 
 - Clique em escolher arquivo: 
 
-![image](https://user-images.githubusercontent.com/106490786/230426965-528cdd59-5b58-49ac-a6f6-e379dd30ff57.png)
+![Captura de tela 2023-04-06 123048](https://user-images.githubusercontent.com/106490786/230437602-0ab28401-9b05-4cd7-88ce-bc7da09dd472.png)
 
+- Escolha o arquivo que esta dento da pasta banco desse repositorio: 
+
+![Captura de tela 2023-04-06 123852](https://user-images.githubusercontent.com/106490786/230437631-793f75dd-3c81-4441-ad4a-214d95b5a174.png)
+
+- Depois de escolher o arquivo va ate o fim da pagina e clique em Importar:
+
+![Captura de tela 2023-04-06 124116](https://user-images.githubusercontent.com/106490786/230437785-25dc3800-bd66-4628-ab8d-04d0a79d2ffd.png)
+
+- Por fim abra uma nova guia e digite http://localhost/sistema/, assim o sistema estara pronto para proto para testes.
+
+![Captura de tela 2023-04-06 124749](https://user-images.githubusercontent.com/106490786/230437831-2edaf813-47b0-438c-b95d-2ffc209cac8c.png)
+
+## Logins do sitema
+
+Logins de nivel 1:  
+ 
+Usuario: admin<br>
+Senha : 123456
+
+Logins de nivel 2:  
+ 
+Usuario: ClienteUm<br>
+Senha : 123456
+
+Usuario: ClienteDois<br>
+Senha : 123456
+
+Usuario: ClienteTres<br>
+Senha : 123456
 
 ## Imagens das telas do sistema: 
 ### Login
-![image](https://user-images.githubusercontent.com/106490786/230398393-4652d3e6-7196-45ed-8886-5822e31735b7.png)
+![image](https://user-images.githubusercontent.com/106490786/230438418-124da8e9-c133-4621-a59f-570521c4d4f1.png)
 ### Home
 ![image](https://user-images.githubusercontent.com/106490786/230397110-85ab08d9-ceed-441e-9939-fd13a11182c6.png)
 ### Agendar serviço
