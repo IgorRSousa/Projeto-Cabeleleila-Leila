@@ -1,0 +1,2 @@
+<li class='nav-item'><a class='<?php echo (@$_REQUEST['page'] == 'novo') ? 'nav-link active' : 'nav-link'; ?>' href='?page=novo'>Cadastro</a></li>
+<li class='nav-item'><a class='<?php echo (@$_REQUEST['page'] == 'listar') ? 'nav-link active' : 'nav-link'; ?>' href='?page=listar'>Listar Usuarios</a></li>
