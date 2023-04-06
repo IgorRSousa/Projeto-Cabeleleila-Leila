@@ -68,6 +68,23 @@ Com o Xampp instalado, basta colocar os arquivos da pasta sistema deste reposit√
 
 ![image](https://user-images.githubusercontent.com/106490786/230423935-73fdda82-6d61-40fe-9ae5-7d511c6516c8.png)
 
+- Agora abra o Xampp Control Panel, e de Start no Apache e no MySQL:
+
+![image](https://user-images.githubusercontent.com/106490786/230424819-ffa73d9c-ffa1-4bcc-bbf2-6330bbffdf62.png)
+
+- Com o servidor e o banco startado abra um navegador e digite http://localhost/phpmyadmin/ na url.
+
+![image](https://user-images.githubusercontent.com/106490786/230426467-9f91c78b-0331-42d3-b95b-3b67d27ff379.png)
+
+- Agora clique em Importar: 
+
+![image](https://user-images.githubusercontent.com/106490786/230426064-9b8f644f-50ad-41d5-8ad9-9c56484d92e2.png)
+
+- Clique em escolher arquivo: 
+
+![image](https://user-images.githubusercontent.com/106490786/230426965-528cdd59-5b58-49ac-a6f6-e379dd30ff57.png)
+
+
 ## Imagens das telas do sistema: 
 ### Login
 ![image](https://user-images.githubusercontent.com/106490786/230398393-4652d3e6-7196-45ed-8886-5822e31735b7.png)
