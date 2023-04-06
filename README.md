@@ -49,12 +49,24 @@ Com o arquivo de instalação na sua máquina execute ele siga as instruções:
 ![WhatsApp Image 2023-04-06 at 12 02 46](https://user-images.githubusercontent.com/106490786/230420108-355ed0ef-5d7a-447c-b839-84df2c372e39.jpeg)
 
 
-Após isso a instalação será iniciada, depois que a instalação estiver completa clique em finish para completa.
+- Passo 6: Após isso a instalação será iniciada.
+
+![WhatsApp Image 2023-04-06 at 12 07 57](https://user-images.githubusercontent.com/106490786/230422856-2a06b410-5fc9-4822-921f-9c00820193d0.jpeg)
+
+- Passo 7: Depois que a instalação estiver completa clique em finish para completa.
+
+![WhatsApp Image 2023-04-06 at 12 13 18](https://user-images.githubusercontent.com/106490786/230423055-b361fc37-548e-4206-ba34-b89111e29dae.jpeg)
+
 
 ### Preparando sistema para fazer os testes: 
-Com o Xampp instalado, basta colocar os arquivos da pasta codigo deste repositorio na pasta de projetos do Xampp. Vá até a pasta onde o mesmo foi intalado: 
+Com o Xampp instalado, basta colocar os arquivos da pasta sistema deste repositório na pasta de projetos do Xampp. 
+- Vá até a pasta onde o Xampp foi instalado: 
 
+![image](https://user-images.githubusercontent.com/106490786/230422241-60c82a8e-29b6-4c38-a912-89d8146ee628.png)
 
+- Entre na pasta htdocs, e coloque a pasta sistema:
+
+![image](https://user-images.githubusercontent.com/106490786/230423935-73fdda82-6d61-40fe-9ae5-7d511c6516c8.png)
 
 ## Imagens das telas do sistema: 
 ### Login
