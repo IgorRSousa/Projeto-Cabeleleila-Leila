@@ -1,9 +1,9 @@
 <h1>Lista de agendamentos na mesma semana</h1>
 <?php
     $data = new DateTime($_REQUEST["data"]);
-    $sql = "SELECT id, nome, servico, dataehora, observacao, DATE_FORMAT(dataehora, '%Y-%U') AS semana_data1 
-            FROM agendamentos 
-            WHERE DATE_FORMAT(dataehora, '%Y-%U') = '".$data->format('Y-W')."' AND nome='".$_SESSION['nome']."' AND DATEDIFF(dataehora, '".$_REQUEST["data"]."')>2 ORDER BY dataehora"; 
+    $sql = "SELECT id, nome, servico, dataehora, observacao, DATE_FORMAT(dataehora, '%Y-%U') AS semana FROM agendamentos WHERE DATE_FORMAT(dataehora, '%Y-%U') = '".$data->format('Y-W')."' AND nome='".$_SESSION['nome']."' AND DATEDIFF(dataehora, '".$_REQUEST["data"]."')>2 ORDER BY dataehora;";
+
+            
 
     $res = $conn->query($sql);
 

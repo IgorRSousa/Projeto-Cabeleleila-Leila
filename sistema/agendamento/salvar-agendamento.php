@@ -7,13 +7,7 @@
             $resData = $conn->query($sqlData);
             $qtd = $resData->num_rows;
 
-            $sqlSemana = "SELECT
-                                dataehora, nome,
-                                DATE_FORMAT(dataehora, '%Y-%U') AS semana_data1
-                            FROM
-                                agendamentos
-                            WHERE 
-                                DATE_FORMAT(dataehora, '%Y-%U') ='".$data->format('Y-W')."'AND nome='".$_SESSION["nome"]."' AND DATEDIFF(dataehora, '".$_POST["data"]."')>2";
+            $sqlSemana = "SELECT dataehora, nome, DATE_FORMAT(dataehora, '%Y-%U') AS semana FROM agendamentos WHERE DATE_FORMAT(dataehora, '%Y-%U') ='".$data->format('Y-W')."' AND nome='".$_SESSION["nome"]."' AND DATEDIFF(dataehora, '".$_POST["data"]."')>2";
             
             $resSemana = $conn->query($sqlSemana);
             $linhas = $resSemana->num_rows;
@@ -26,8 +20,7 @@
                     print "<script>if(confirm('Existe um agendamento feito para essa semana gostaria de fazer no mesmo dia ?')){
                             location.href='?page=agendarJunto&data=".$_POST["data"]."'}
                             else{false}</script>";
-                            break;
-                    }
+                }
                 $nome = $_SESSION['nome'];
                 $servico = $_POST["servico"];
                 $observacao = $_POST["observacao"];
