@@ -1,5 +1,17 @@
 # Projeto Cabeleleila Leila
-## Tecnologias Utilizadas 
+## Tecnologias utilizadas:
+<div style="display: inline_block"><br>
+  <img height="100em" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+  <img height="100em" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg" />
+  <img height="100em" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />
+  <img height="100em" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
+  <img height="100em" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" />
+</div>
+
+## Como rodar o sistema:
+### Baixando os programas necessários:
+O programa que foi utilizado foi o Xampp, pois ele em uma única instalação já vem com o banco de dados e a linguagem PHP.
+- Link para download: https://www.apachefriends.org/pt_br/download.html
 
 
 ## Imagens das telas do sistema: 
